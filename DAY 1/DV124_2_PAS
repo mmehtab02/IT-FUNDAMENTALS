@@ -1,0 +1,77 @@
+DV500_2_SAS On Laptop Hardware
+Self-Assessment Sheet
+
+
+What does it mean to be modular?
+In the context of laptop batteries : easy to assemble / reassemble, upgrade or replace, configure. It is relative to construction design of a system (objects or applications). If something is modular, it is one part of an entire functioning system consisting of modules.
+
+What type of battery technology do we use today?
+Lithium ion and Lithium ion polymer (LiPo).
+
+What happens each time you charge a battery?
+The capacity diminishes by minimal amounts overtime.
+
+What is one advantage to using a modular battery configuration?
+     It is easy to replace if the battery capacity diminishes without taking apart the entire system.
+
+It is also easy to carry multiple batteries so you don’t have to connect the laptop and recharge one. You can simply replace the uncharged battery with a fully charged one.
+
+True or False? lithium-ion batteries are designed to be 80 percent charged.
+False
+
+True or False? In lithium-ion batteries, discharging some of the battery and charging it back up again you have to worry about causing a effect on memory or limiting the amount of capacity that battery might have.
+False
+
+Only the capacity of the battery diminishes in small amounts every time.
+
+Where are all the programs that are executing in your operating system executing?
+Memory / RAM
+
+What does SO-DIMM stand for?
+Small outline dual in-line memory module.
+
+Where is SO-DIMM usually used?
+Laptops / mobile devices.
+
+ Are you able to change/upgrade memory for a device that has it soldered to the motherboard?
+No, not without replacing the motherboard or soldering memory which can be risky and/or expensive. This makes the memory non modular and non-upgradeable.
+
+ In what form do older laptops have storage in?
+Magnetic disk (moving parts)
+2.5 inch form factor.
+
+ In what form do new laptops have storage?
+SSD (solid state drive)
+M.2 form factor
+
+ What is one advantage of SSD?
+Silence, speed, longer lifespan (no moving parts/memory)
+
+ What is one way you can migrate from a hard drive to an SSD
+Clone original HDD to SSD with imaging software using drive-to-drive. All data is kept.
+
+ What are some types of authentications?
+Inputting a password to access the operating system.
+
+Using the biometrics option to read fingerprints which has a separate piece of hardware.
+
+What is one disadvantage of laptop keyboard?
+The key cap and/or components under can break easily.
+
+ What is NFC?
+Near field communication on laptops / mobile devices. Contactless data communication.
+
+What does NFC allow you to do?
+Quickly transfer data, authenticate, or access operating system. No need to physically touch, input information, etc. An example is contactless payment from phones at a grocery store.
+
+ Is m.2 a modular setup?
+Yes
+
+ M.2 interface on an SSD drive is larger than traditional SATA-connected SSD? True or False?
+False
+
+
+
+
+
+
