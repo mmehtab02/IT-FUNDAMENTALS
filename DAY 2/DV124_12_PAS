@@ -1,0 +1,45 @@
+
+12_SAS ON Software Defined Networking
+Self-Assessment Sheet
+
+1. What is Software Defined Networking (SDN)?
+2. What are Computer Networking Planes?
+-
+	Cloud computing has changed networking in many ways. The infrastructure of physical devices needs to be converted into a virtual cloud world.
+One way to do this is SDN. These are networking devices that are usually physical and we turn them into a software based platform that can be used in the cloud. For example, if we need to use a switch, we can split the functions into separate units. These pieces can then be used as a software version in the cloud.
+The computer networking planes are in reference to the conceptual division within a network architecture that will handle different aspects of network operations and management.
+There are different functional planes of operation here. Instead of it all compact in a device, we have different planes such as the data, control, and management planes (3 planes). These 3 layers allow for consistent network management in the cloud.
+This is the method of managing networks in the cloud. We have 3 different planes that have different functions and serve as components of a network device but as a software version. This creates a perfect environment for network management for the cloud. These planes allow for proper management of different network functions without the need for a physical network device to contain these functions.
+-
+3. What is Data Plane?
+	It is the infrastructure layer, or data plane. It would handle functions such as forwarding, trunking, encrypting, NAT functions, etc. This plane will handle the process of communicating network frames and packets.
+If you connect to a switch and need traffic forwarded between different interfaces on the switch, this would occur in the data plane. We would take anything that may be forwarding this traffic on the device and create a software version of that and we call it the data plane.
+This plane is responsible for forwarding and transmitting network data packets. It operates at the lowest layer (layer 2 OSI model) and is concerned with efficient and accurate delivery of data.
+4. What is Control Plane?
+	When a router or device needs to forward packets, it needs a reference to know where it will be going. In this case, these references will be in the control layer or the control plane. Things such as dynamic routing protocol updates, a forwarding table in a switch, NAT tables in a router, etc., this will all be present and contained in the control plane.
+Devices, like a switch, would also need tables and a forwarding structure to be able to know where traffic is coming from and where it will be forwarded. This would occur in the control plane in a software version.
+This plane is responsible for managing and controlling the behavior of network devices. Routing protocols, network topology discovery, signaling are all tasks handled at this layer. The control plane will determine the path the data packets take in a network, and it sets up and maintains routing tables, and makes decisions on how packets are forwarded.
+In traditional physical networking the control plane is embedded within individual devices while in SDN it is centralized and managed by a separate controller.
+5. What is Management Plane?
+	Someone has to manage the device as well. We would need to log in or access the device via an API, a browser, through SSH, etc. All of this can be done in the application layer or management plane of the device. For example when you have a graphical interface of a firewall, or you use SSH to access a router, this is happening in the management plane.
+On a physical device you would need to manage the device through a console port or some interface to connect to the device. That section of the device would be in the management plane.
+This plane is responsible for management and administration of the network. It will have functions like network monitoring, configurations, performance, security. This plane will allow network admins to monitor and configure the network and associated devices, troubleshoot, enforce security measures, and make sure the network runs smoothly. These tasks can be done through software such NMS (network management systems).
+6. What is Software Defined Networking Controller (SDN Controller)?
+	It is the central element of SDN architecture. Its responsibility is to manage and orchestrate the network by making forwarding decisions and configuring network devices.
+This is in reference to the separate controller that centralizes and manages control of networking, like the tables, paths data packets take in a network, how packets should be forwarded, etc. This is built into physical hardware in traditional networking while in SDN is it software based.
+7. What is Distributed Control Planes?
+	Instead of control plane functions being centrally managed by one entity like a controller, this is an architecture where the control plane functions are decentralized and distributed across multiple network devices. Each network device has its own intelligence and is responsible for making local control decisions based on the conditions and policies of that network.
+Decentralized decision-making, localized knowledge, scalability, fault tolerance, protocol-based communication : these are some points that would be present in distributed control planes.
+These are used commonly in large networks like the internet where volume of traffic and the need for scalability and fault tolerance is high. There are advantages to this such as faster decision making, scalability, fault tolerance, network resilience.
+8. What is Controller Based Networking?
+	This is different from distributed control planes. In this scenario, it is a centralized network control, and it is another approach that uses a central controller to oversee and manage network operations. The controller is in charge of the network’s control plane functions.
+Since there is a centralized control, it will be responsible for making control decisions and enforcing network policies. Administrators have a single point of management and can ensure policies are enforced across the network. It also makes it simple to manage with a centralized interface to configure, monitor, troubleshoot, etc. Admins can use this controller to automate tasks, deploy policies, and gather data on performance. It will reduce network administration complexities. There are several other aspects and benefits of a controller-based networking architecture.
+SDN falls under this category, and OpenFlow is a protocol that is based on this centralized software network architecture.
+9. What is a Routed Port?
+	It is a network port on a device like a router that is configured to perform routing functions. This is done on layer 3 of the OSI model and performs IP routing.
+In the context of SDN, it is similar but the control and data plane is separated. Routed ports in SDN refer to the interfaces created within the SDN infrastructure for the purpose of routing traffic. There are several aspects of routed ports in SDN, one of them being that they can integrate with SDN protocols such as OpenFlow. This enables the controller to configure the routing behavior of the data plane devices including operation of routed ports.
+10. What is OpenFlow?
+	It is a commonly used protocol in SDN that allows the controller to communicate with network devices. It provides a standardized way to control / manage network flows and allows the controller to configure and program forwarding rules on the switches.
+The SDN controller can communicate with network devices using protocols such as OpenFlow to instruct them how to handle data packets.
+
+
