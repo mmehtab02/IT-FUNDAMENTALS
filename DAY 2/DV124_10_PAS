@@ -1,0 +1,92 @@
+10_SAS ON Common Network Ports
+Self-Assessment Sheet
+
+All TCP implementations are connection-oriented to ensure order and delivery of data packets, while UDP implementations are connectionless that allows for speed of communication but unreliability of data packets.
+1. What is Port 20 (TCP)?
+A well known port number used for the FTP data transfer. Port 20 is used by FTP in active mode for the data transfer between an FTP server and a client. In this mode, the client has to initiate a connection on port 21 to establish control. The server is informed about the client’s data transfer address and port. The server is responsible for sending a data channel connection to the client on port 20 to transfer the files that are requested.
+Passive mode FTP data transfer occurs over a different range of dynamically allocated ports, not necessarily with port 20.
+Some key points about port 20 and FTP are :
+Port 20 is used for FTP data transfer in active mode
+The FTP server initiates the data connection to the client on port 20
+Data transferred on port 20 is usually binary like files being sent between a client and server
+Port 20 uses the TCP which ensures reliable order and delivery of data packets
+Port 20 is commonly used with FTP data transfer but FTP can be configured to use different ports for both control and data transfer. That would vary on specific network setups and security requirements.
+2. What is Port 21 (TCP)?
+This is a well known port number specifically reserved and used for the FTP control connection which is responsible for initiating communication between the client and the server. It also handles commands and responses during the FTP session.
+Some key points about port 21 and FTP are :
+Port 21 is used for control connection
+The FTP client initiates a TCP connection to port 21 on the FTP server to create control
+The control connection is used for commands like authentication, listing files, upload and download requests, and more
+The FTP control connection typically operates using the TCP protocol. This ensures reliable order and delivery of commands and responses
+Just like port 20, port 21 is common for FTP control although FTP servers can be configured to different ports for security reasons or to avoid conflicts with other services.
+3. What is FTP (File Transfer Protocol)?
+This standard network protocol allows for transfer of files between a client and server over a TCP/IP network.
+There are 2 different port numbers used by FTP : TCP/20 (data transfer), TCP/21 (control data transfer). These 2 port numbers work in conjunction with the FTP protocol.
+FTP is a generic way to transfer data between devices. Usually it will require authentication to log into a device, such as a username and password. Some systems will allow you to log in anonymously with any password.
+There are numerous file management functions with the FTP protocols. For example when you connect to an FTP server, you can : list all files on the server, add files, delete files, rename files, and do more file management functions by using FTP.
+FTP has been a standard method for transferring files over a network but there are security vulnerabilities therefore other secure protocols exist such as SFTP (SSH File Transfer) and FTPS (FTP over SSL/TLS). These allow for encrypted and secure file transfers.
+-
+4. What is Port 22 (TCP)?
+5. What is SSH (Secure Shell)?
+TCP port 22 is used by the SSH protocol to communicate in a network. There are several uses of SSH over port 22 such as Secure Remote Shell (SSH Shell) {secure shell sessions to remotely manage and access a device’s command-line interface}, Secure File Transfer (SFTP) like mentioned earlier {secure method to transfer files between devices to ensure confidentiality and integrity of data}, and more.
+This is typically done when you need to connect to and access a device remotely through a command-line (text-based) interface front end with security, which is what SSH is used for. SSH provides encryption and authentication which makes it useful for things such as remotely administrating and transferring files securely (SFTP).
+The main thing with SSH is that it provides security to access and manage the devices remotely over unsecured networks with its encryption. The data is safe to communicate between a client and server.
+Just like all port numbers, port 22 is recognized as a default (for SSH protocol), but SSH port numbers can always be changed and configured if desired and required.
+-
+-
+6. What is Port 23 (TCP)?
+7. What is Telnet?
+Telnet is similar to SSH. It is another network protocol method that uses TCP port 23. It allows remote access to a device over TCP/IP network to control a remote device. The client initiates the connection to the Telnet (telecommunications) server on port 23 then you use Telnet commands and responses to communicate, which is done through a text-based command-line interface, just like SSH.
+The only difference between Telnet and SSH is that there is no encryption in Telnet, therefore any data packets captured by someone else in the communication between a client and a server over the network is prone to revealing the data, such as usernames and passwords.
+The other difference is that SSH uses TCP port 22, and Telnet uses TCP port 23.
+SSH is a much more secure and preferred method to remotely access devices on a network to ensure that data is protected.
+-
+-
+8. What is Port 25 (TCP)?
+9. What is Simple Mail Transfer Protocol (SMTP)?
+SMTP is the network protocol used to communicate (sending / routing) emails between mail servers. This standard protocol enables email communication on the internet using the default TCP protocol on port 25. It is used for both communication of email between mail servers, as well as clients to send mail to a mail server. Meaning it can be used to receive mail on a mail server from another mail server, but it can also be used to send mail from a client to a mail server. The client or server establishes SMTP connection to the recipient’s mail server on port 25.
+There are other protocols for clients to receive email from a mail server. (Client) This reception of mail could use IMAP or POP3 protocols, and you could be using SMTP to send mail, while server to server communication of email will be using SMTP.
+-
+10. What is Port 53 (UDP)?
+11. What is DNS (Domain Name System)?
+Port 53 is the default port number used for the DNS protocol. DNS is the protocol that handles translation of human readable domain names like www.website500.com into IP addresses such as 161.141.258.139.
+In basic terms, the DNS converts names into IP addresses so that devices can identify and communicate with each other over the internet. DNS uses the default port 53, and the UDP protocol is suitable for faster communication since it is connectionless. This is why sometimes when accessing a website, it doesn’t always load and an error is given.
+DNS is a hierarchical and decentralized naming system that serves as the backbone of the internet providing a global distributed database that maps the human readable domains into IP addresses which allows users to perform various tasks on the internet. DNS clients send DNS queries to DNS servers to obtain IP addresses associated with the domain name.
+-
+EXTRA What is DHCP, port 67 & 68 (UDP)?
+Dynamic Host Configuration Protocol is a network protocol used to dynamically assign IP addresses and provide network configuration information (subnet mask, default gateway, DNS server addresses) to devices on a network automatically. This allows for simplicity of IP address etc. allocation and helps to manage network resources efficiently. There is no need to manually configure anything because the DHCP server handles that automatically.
+The DHCP server is typically built into devices like routers or wireless access points.
+The IP addresses are assigned in real-time from a pool of addresses which makes it dynamic. There may be a leasing system in place which assigns these IP addresses for a certain period of time temporarily and after that time expires the lease would be renewed.
+There is also a functionality in DHCP servers called DHCP reservation which is used by the network administrators to assign the same (static) IP addresses to certain devices (by MAC address) such as routers, firewalls, switches, etc. This allows for configuration from one location instead of going to each device.
+How this will work is that a device will send a DHCP request message to the DHCP server (requesting for network parameters), and the server will receive the request. The server listens for requests on port 67, and the client sends its requests to port 67. The DHCP server will then respond to the client’s request by sending DHCP offer and acknowledgement messages which are sent from the server’s port 67 to the client’s port 68.
+Port 67 is used by servers to listen for client messages, and port 68 is used by clients to send and receive messages from the servers. This allows for the process of discovery, request, offer, and acknowledgement messages, and allows the automatic assignment of IP addresses and network configuration to the DHCP clients on a network.
+UDP is connectionless and provides lightweight and efficient communication between the devices on a network.
+12. What is Port 80 (TCP)?
+Port 80 is the default port number used for HTTP communication. It is the port used for requests and responses between web servers and web clients (like browsers). When a client sends an HTTP request to a web server, it typically will use port 80 as the destination port.
+13. What is Port 443 (TCP)?
+Port 443 is the default port number used for secure HTTP communication. It is the port used for requests and responses between web servers and web clients (like browsers) that are encrypted and secure. When a client sends an HTTPS request to a web server, it typically will use port 443 as the destination port. HTTPS uses SSL/TLS protocols to encrypt data and provide secure communication over the network.
+14. What is HTTP (Hypertext Transfer Protocol)?
+This is the protocol that governs communication between web clients and web servers. It is the backbone of communication of data on the World Wide Web that allows clients (Google Chrome for ex.) to request and retrieve web resources from a server.
+HTTP operates on the application layer of the TCP/IP protocol suite and uses a request-response model. Clients send HTTP requests to a server specifying the resource (web page for ex.) and the server responds with that data typically in HTML format. HTTP is a stateless protocol meaning each request-response cycle is independent of previous ones.
+15. What is HTTPS (Hypertext Transfer Protocol Secure)?
+This is the secured version of HTTP which adds encryption and authentication mechanisms to protect data transmitted over the network. It uses SSL (Secure Sockets Layer) or TLS (Transport Layer Security) protocols to create this secure encrypted connection environment between the client and server. HTTPS will make sure data exchanged between the client and server cannot be intercepted or tampered by parties that are not authorized to do so. It is used for secure transactions such as online banking, government websites, and any other place where data is sensitive and requires security and protection.
+-
+16. Port 110 (TCP)?
+17. What is Port 143 (TCP)?
+18. POP and IMAP?
+19. What is POP3 (Post Office Protocol version 3)?
+20. What is IMAP (Internet Message Access Protocol)?
+To send email from a client to a mail server, and to receive and send mail between mail servers, you would use the SMTP protocol on TCP port 25. But to receive email on a client, you would need to use POP or IMAP.
+POP3 is the latest version of the Post Office Protocol and it uses TCP port 110. This protocol was designed to retrieve email messages to an email client, but it wasn’t designed for multiple email clients. This protocol can handle basic mail transfer functionality. We use multiple devices nowadays that access the same email inbox, therefore POP3 will not be helpful here.
+For this, IMAP (version 4) is the protocol that is able to synchronize across multiple mailboxes. IMAP uses TCP port 143 to be able to download and manage an email mailbox from multiple clients.
+-
+TCP port 110 - port number used for POP3. When an email client wants to retrieve emails using POP3, it will connect to the email server’s port 110 to establish connection and fetch the emails.
+TCP port 143 - port number used for IMAP. This protocol allows users to manage their emails on a server including synchronization across multiple devices. When an email client wants to access emails using IMAP, it will connect to the server’s port 143 to establish a connection and interact with the server.
+POP & IMAP - email protocols that allow users to retrieve and manage email messages. They provide methods for email clients to communicate with mail servers and access those emails stores on the servers.
+POP3 - it is a specific version of the Post Office Protocol. It is a standard email retrieval that downloads email messages from a server to a client / local device. Email messages are typically removed from the server after they are downloaded to the client.
+IMAP4 - Internet Message Access Protocol is a protocol for accessing and managing email messages stored on a mail server. This enables users to view, organize, and manipulate their emails without downloading them to the client / local device. IMAP stores the emails on the servers, which will allow users to access / manage them from multiple devices. IMAP4 is an updated / specific version of IMAP. There are additional features and improvements over the previous versions that enhance the functionality and efficiency of email retrieval and management.
+-
+Port 110 is used for POP3 email retrieving, while port 143 is used for IMAP email retrieving.
+POP is a protocol for downloading emails to a local device, while IMAP is a protocol for accessing and managing emails on a mail server that allows for multiple devices to access the information.
+POP3 is a specific version of POP, and IMAP4 is an updated version of IMAP.
+-
