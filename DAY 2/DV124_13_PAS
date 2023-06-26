@@ -1,0 +1,56 @@
+
+13_SAS On Wireless Network Standards
+Self-Assessment Sheet
+
+1. What is 802.11a speed?
+	54 megabits per second.
+2. What is 802.11a Frequency & range?
+	5 GHz frequency and range.
+3. What are some other features of 802.11a?
+	It can use other frequencies ranges with special licensing, but you don't see this standard around much nowadays. Back then it was fast but now it is considered a slow speed.
+With 5GHz the objects around us tend to absorb the signals. These are not common today.
+4. What is 802.11b Speed?
+	11 megabits per second.
+5. What is 802.11b Frequency & range?
+	2.4 GHz
+6. What are some other features of 802.11b?
+	Released in October 1999. It is a different standard from 11a, not an upgrade.
+Why choose the slower 11Mbps? The frequency of 2.4GHz tends to bounce off devices instead of being absorbed, and we tend to get a longer distance than 11a.
+A warehouse you may choose 802.11a. In an office setting you would choose 802.11b.
+There was conflict with the frequency since wireless devices were not the only device using this frequency. Bluetooth, baby monitors, cordless phones, microwave ovens would use this frequency and there would be more problems arising when using things simultaneously.
+It is also difficult to find 802.11b networks and in the case you do it is probably for an upgrade.
+7. What is 802.11g Speed?
+	54 Mbit/s
+8. What is 802.11g Frequency & range?
+	2.4GHz
+9. What are some other features of 802.11g?
+	A lot faster speed than 802.11b, yet same as 802.11a, but on the 2.4GHz range.
+This is backwards compatible with 802.11b. Meaning if you upgrade to 11g, you can still use 11b devices on the same network.
+The same frequency conflicts occur with 802.11b.
+10. What is 802.11n Speed?
+	600 Mbit/s maximum speed (if your WAP can use 40 MHz and 4 antennas).
+11. What is 802.11n Frequency & range?
+	5GHz and/or 2.4 GHz with 40 MHz channel widths (more bandwidth meaning more data can be transferred simultaneously over the network.
+12. What are some other features of 802.11n?
+	This is an upgrade of 11a, 11b, and 11g in 2009. This is also called WIFI 4. The others would be WIFI 1, 2, 3, but they are now old.
+802.11n uses MIMO which is a new form of communication. It stands for multiple-input multiple-output. This means devices can transfer more information simultaneously between the in station and the access point (multiple transmit and receive antennas).
+13. What is 802.11ac Speed? (WIFI 5)
+	Uses MIMO as well as MU (multiple users). This standard supports up to 8 MIMO streams, reaching a max throughput of 7 gigabits per second. On a single connection it is 867 Mbit/s.
+14. What is 802.11ac Frequency & range?
+	5GHz band only. Supports up to 160 MHz channel bandwidth.
+15. What is 802.11ax Speed? (WIFI 6)
+	Up to 1.2 gigabits per second. The difference here is the design. The communication design is OFDMA. It works similar to cellular networks. Overall it was an upgrade despite not upgrading the speed. It also still has the DL MU-MIMO feature therefore :
+The max theoretical throughput is actually 9.6gigabits/second.
+16. What is 802.11ax Frequency & range?
+	2.4GHz and/or 5GHz with 20, 40, 80, and 160 MHz channel widths
+17. What is RFID?
+18. How does RFID work?
+-
+	A wireless technology that stands for Radio Frequency Identification. It uses radio waves wirelessly to identify and track objects or individuals. There are 3 main components in an RFID system :
+RFID tag - small electronic device with microchip and antenna. This stores information about the tagged object or individual. This can be passive, battery-assisted passive (BAP), or active. Passive tags rely on energy received from the RFID reader to operate, while active tags have a power source.
+RFID reader - device that emits radio waves and receives signals from the RFID tags. This reader generates an electromagnetic field (radio) that powers passive tags within its range and reads the information stored in the tags. The reader can be handheld or fixed.
+Backend system
+Also contains communication and data processing processes.
+These are present everywhere. Access badges, inventory/assembly line tracking, pet/animal identification, etc. Basically anything that needs to be tracked would most likely be using RFID technology. It can be small and cylindrical, or flat square shape for example. They don’t have batteries associated with them because they are using radio technology. We send radar signals out and this is captured by the antenna and is converted to power and added to the chip which powers and allows the device to transmit back. There are other RFID tags that have power sources (active/powered RFID).
+This technology has been extended into devices like our mobile phones and smart watches through the use of NFC (near field communication). It is a way for our devices to have 2 way conversations with other devices. For example, online wallets work this way when we pay at a store without touching anything through our phone. NFC could be used to pair 2 bluetooth devices. Our phones can be used to unlock a door for example, and this allows short range encryption communication with an access token or identity card.
+-
