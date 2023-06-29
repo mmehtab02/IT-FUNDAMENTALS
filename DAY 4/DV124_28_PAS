@@ -1,0 +1,72 @@
+28_SAS On SATA Device Cables
+Self-Assessment Sheet
+
+Q1. What does SATA stand for?
+Ans: SERIAL AT ATTACHMENT
+
+Q2. What was the data transfer rate of SATA revision 1.0?
+Ans: 1.5 GIGABITS PER SECOND OVER 1 METER
+
+Q3. How fast is SATA revision 3.2?
+Ans: 16 GIGABITS PER SECOND OVER 1 METER
+
+Q4. SATA revision 2.0 doubled that speed to __________ gigabits per second.
+Ans. 3 GIGABITS
+
+Q5. What type of connection is used for external storage devices?
+Ans: ESATA / EXTERNAL SATA
+
+Q6. What is the maximum length of the SATA cable?
+Ans: ESATA ALLOW FOR MAX CABLE LENGTH OF 2 METERS.
+
+Q7. What type of connector is used for data transfer in a hard drive?
+Ans: SATA CONNECTORS
+
+Q8. A larger ______ pin connector is used to power the device.
+Ans. 15
+
+Q9. The hard drive also has a power connector for a ___________.
+Ans. MOLEX CONNECTOR
+
+Q10. How many cables are required to connect a storage device using a SATA connection?
+ONE FOR POWER, ONE FOR DATA.
+
+Q11. What type of connections are used for power and data?
+Ans: ONE TO ONE CONNECTIONS
+OLDER DEVICES USE MOLEX FOR POWER
+
+Q12. What type of connectors does this motherboard have?
+Ans: SATA CONNECTORS
+POWER SUPPLY HAS SINGLE POWER CONNECTION
+
+Q13. What are the colors of the SATA connections?
+Ans: THE COLORS CAN CHANGE DEPENDING ON THE MOTHERBOARD AND THE DIFFERENT SATA VERSIONS.
+
+IN THE EXAMPLE, IT HAS YELLOW SATA CONNECTORS.
+THEY CAN BE BLUE, BLACK, ETC.
+
+Q14. What are the two types of connections needed to connect a storage device to a motherboard?
+Ans: DATA AND POWER CONNECTIONS
+
+Q15. What is eSATA?
+Ans: EXTERNAL SATA WHICH IS EXTERNAL VERSION OF CONNECTING STORAGE DEVICES.
+
+Q16. What kind of cable is needed to connect an eSATA drive to a computer?
+Ans:  THE STANDARD FOR CONNECTIVITY IS THE SAME AS INTERNAL SATA CONNECTIONS BUT THE CONNECTOR (ALTHOUGH LOOKS SIMILAR) IS A DIFFERENT CONNECTOR TYPE.
+
+INSTEAD OF SATA L SHAPE, IT IS SLIGHTLY LARGER WITH A DIFFERENT LAYOUT FOR CONNECTING.
+
+ESATA CABLE VS. SATA CABLE
+
+Q17. If we look at a SATA interface on your motherboard, it has this _________ shape associated with it.
+Ans. L
+
+Q18. What type of cables are needed to connect an internal SATA drive?
+Ans: A SATA CABLE, AND A 15 PIN POWER CABLE (OR MOLEX FOR POWER FOR OLDER DEVICES).
+
+Q19. What type of connection options are available for many external storage drives?
+Ans: FIREWIRE, USB2, ESATA, ETC.
+
+Q20. How do you connect an external storage device with an eSATA connection?
+Ans: USE AN ESATA CABLE TO CONNECT THIS STORAGE DRIVE’S ESATA INTERFACE TO THE ESATA INTERFACE ON YOUR COMPUTER.
+
