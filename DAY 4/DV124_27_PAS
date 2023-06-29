@@ -1,0 +1,75 @@
+27_SAS_On Video Cables
+Self-Assessment Sheet
+
+Q1. What does VGA stand for?
+Ans. VIDEO GRAPHICS ARRAY
+
+Q2.  What is the name of the connector associated with the VGA video format?
+Ans: DB-15 / DE-15
+
+Q3. What are the PC System Design Guide Standards?
+Ans: THIS IS A STANDARD THAT SUPPORTS VIDEO DISPLAYS BUT IT HAS NO WAY TO INTEGRATE AUDIO SIGNALS WITHIN THIS VIDEO CONNECTION.
+
+Q4. What color is associated with VGA?
+Ans: BLUE
+
+Q5. If I am connecting a monitor using a VGA connection, do I need to have a separate audio connection?
+Ans: YES
+
+Q6. What happens when you extend a VGA signal beyond 5 to 10 meters?
+Ans: YOU’LL SEE THE SCREEN BECOMES FUZZIER AND MORE DIFFICULT TO SEE AS THAT SIGNAL DEGRADES.
+
+Q7. What type of signal is a VGA signal?
+Ans: AN ANALOG SIGNAL
+
+Q8. What type of connector is the VGA connector on the back of a computer?
+Ans: 15 PIN CONNECTOR THAT IS UNIQUE
+
+Q9. What type of connection is HDMI?
+Ans: A MODERN TYPE OF VIDEO CONNECTION.
+IT IS A DIGITAL CONNECTION THAT INCLUDES VIDEO SIGNAL AND AUDIO SIGNAL WITHIN THE SAME CABLE.
+
+Q10. What does HDMI stand for?
+Ans. HIGH DEFINITION MULTIMEDIA INTERFACE
+
+Q11. What type of connector is used with HDMI?
+Ans: COMMON TYPE A CONNECTOR WITH 19 PINS THAT IS A PROPRIETARY TYPE SPECIFIC TO HDMI.
+
+Q12. What types of video output does this video adapter support?
+Ans: HDMI OUTPUT
+DISPLAYPORT INTERFACES
+DVI INTERFACES
+
+Q13. What is DisplayPort?
+Ans. ANOTHER DIGITAL VIDEO STANDARD THAT IS ABLE TO SEND BOTH AUDIO AND VIDEO SIGNALS.
+
+Q14. What are the two types of DisplayPort interfaces?
+Ans: STANDARD DISPLAYPORT
+MINI DISPLAYPORT
+
+Q15. How do you remove a DisplayPort interface?
+Ans: THE LARGER ONE HAS HOOKS THAT LOCK INTO PLACE. YOU NEED TO PUSH DOWN ON A RELEASE MECHANISM TO REMOVE IT.
+
+Q16. Is DisplayPort passively compatible with HDMI?
+Ans: YES
+ALSO WITH DVI
+
+Q17. What type of cable is needed to connect a computer with a DisplayPort interface to a monitor with an HDMI interface?
+Ans: A CABLE WITH DISPLAYPORT ON ONE SIDE AND HDMI ON THE OTHER SIDE.
+
+Q18. What does DVI stand for?
+Ans: DIGITAL VISUAL INTERFACE
+
+Q19. How much throughput does a single link connection support?
+Ans: 3.7 GIGABITS WHICH ALLOWS US TO VIEW DEFINITION TV AT 60 FRAMES A SECOND.
+
+Q20. What does a dual link connection allow us to view?
+Ans: TWICE THE THROUGHPUT ALLOWING US TO VIEW HD TV AT 85 FRAMES PER SECOND.
+
+Q21. What type of signals does DVI support?
+Ans: IT SUPPORTS VIDEO CONNECTION ONLY (NO AUDIO) AND IT SUPPORTS BOTH ANALOG AND DIGITAL CONNECTIONS.
+
+Q22. DVI is a video connection that pass any audio signals through the DVI connection. (True/False)
+Ans. FALSE
+THIS CONNECTOR IS AN INTEGRATED CONNECTION THAT ALLOWS BOTH DIGITAL AND ANALOG COMMUNICATION THROUGH THE SAME CONNECTOR.
+
