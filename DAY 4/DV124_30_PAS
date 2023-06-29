@@ -1,0 +1,69 @@
+30_SAS_PATA Device Cables
+Self-Assessment Sheet
+
+Q1. What is PATA?
+Ans: PARALLEL AT ATTACHMENT STANDARD USED TO CONNECT DRIVES WITHIN A SYSTEM
+
+Q2. What other names has PATA been known by?
+Ans: PARALLEL ATA
+ATA
+INTEGRATED DRIVE ELECTRONICS (IDE)
+ENHANCED IDE (EIDE)
+PC/AT
+
+
+Q3. The name AT Attachment comes from one of the original PCs created by _______.
+Ans. IBM
+
+
+Q4. What speeds can PATA achieve?
+Ans: FROM 16 MEGABYTES PER SECOND - 133 MEGABYTES PER SECOND.
+
+
+Q5. What other types of drives can connect to PATA?
+Ans: CD-ROMS, DVD-ROMS, OTHER DRIVES.
+
+Q6. So although you may find motherboards and other equipment that are referring to an ATA drive or an IDE connection, today we refer to all of these as__________.
+Ans.  PARALLEL ATA OR PATA
+
+Q7. What type of connection is on one end of the PATA cables?
+Ans: 40 PIN CONNECTOR FOR THE MOTHERBOARD.
+
+Q8. How many 40 pin connectors are on each cable?
+Ans: 1 SET ON THE MOTHERBOARD CONNECTION SIDE, 2 MORE SETS ON THE OTHER END OF THE CABLE.
+
+Q9. How is the device order different on the 80 wire cable?
+Ans: THE FIRST INTERFACE IS DEVICE 1 INSTEAD OF DEVICE 0, AND THE LAST INTERFACE ON THE END OF THE CABLE IS DEVICE 0 INSTEAD OF DEVICE 1.
+
+COMPARED TO THE 40-WIRE CABLE (ORIGINAL PATA CABLE)
+
+Q10. What was the original PATA cable?
+Ans: 40 WIRE PATA CABLE
+
+Q11. How did they decrease crosstalk between wires?
+Ans: BY DOUBLING THE AMOUNT OF WIRES FROM 40 TO 80 BECAUSE THE CROSSTALK INCREASED WHEN SPEEDS INCREASED FOR PATA.
+
+Q12. How does an 80 wire cable differ from a 40 wire cable?
+Ans: THEY ARE FOR NEWER (HIGHER SPEED) PATA CABLES TO MINIMIZE CROSSTALK.
+
+THEY HAVE DOUBLE THE WIRES COMPARED TO THE ORIGINAL 40 WIRE PATA CABLE.
+
+THE INTERFACE NUMBERS ARE SWAPPED COMPARED TO THE 40 WIRE PATA.
+
+Q13. The size of the PATA connector compared to the SATA connectors is large. (True/False)
+Ans. TRUE
+
+Q14. What is the purpose of the missing pin in the motherboard's PATA connector?
+Ans: SINCE THE 40 PIN CONNECTOR IS SYMMETRICAL, THE MISSING PIN ALLOWS US TO PROPERLY ORIENT THE CABLE INTO THE RIGHT FORMAT WHEN PLUGGING INTO THE CONNECTOR.
+
+Q15. What do you need to look at to understand how a PATA cable works?
+Ans: LOOK AT THE END OF THE CABLE AND THE MOTHERBOARD INTERFACE. YOU WILL NOTICE MISSING HOLES AND PINS RESPECTIVELY, AND A NOTCH AT THE BOTTOM OF THE INTERFACE AND CONNECTORS.
+
+Q16. What is the purpose of the notch on a PATA cable?
+Ans: THIS ALSO HELPS WHEN ORIENTING THE CABLE.
+
+
+
+Q17. What type of connector is used for storage devices?
+Ans: A 40 PIN SYMMETRICAL CONNECTOR THAT IS SIMILAR TO THE ONE YOU FIND ON A MOTHERBOARD WITH PINS, ONE PIN MISSING, AND A MISSING NOTCH PLACEMENT.
+
