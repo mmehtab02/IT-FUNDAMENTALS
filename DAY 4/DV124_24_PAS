@@ -1,0 +1,55 @@
+24_SAS_Optical Fiber
+Self-Assessment Sheet
+
+Q1. What are the benefits of using ethernet over optical fiber as opposed to twisted pair copper cabling?
+Ans: WE CAN SEND DATA TRANSMISSION OVER VERY LONG DISTANCES. IT IS DONE BY TRANSMITTING DATA BY LIGHT.
+
+Q2. What do you mean by transmission by light?
+Ans. SENDING LIGHT SIGNALS OVER THE FIBER CABLE FROM ONE SIDE TO THE OTHER.
+
+Q3. Another characteristic of fiber optic communication is because we’re sending light signals, there’s no ______________.
+Ans. RADIO FREQUENCIES
+ALLOWS A SECURITY LAYER AS WELL SINCE THE RF CANNOT BE INTERCEPTED.
+
+Q4.What is the advantage of using fiber optics for communication?
+Ans: TRANSMISSION OVER LONG DISTANCE, NO RF THEREFORE LESS SECURITY RISKS
+
+Q5. Radio frequencies tend to have a larger distance than fiber optics. (T/F)
+Ans. FALSE
+
+Q6. What if there’s any radio frequencies in your immediate area, then what is the impact on Fiber optics?
+Ans. THERE WILL BE NO IMPACT ON YOUR FIBER OPTIC SIGNAL. IT IS IMMUNE TO RADIO INTERFERENCE.
+
+Q7. What does the fiber optic connection look like?
+Ans: FIBER CABLE IS VERY SMALL COMPARED TO A COPPER CABLE.
+THE ACTUAL FIBER IS A SMALL DOT ON THE END OF THE FERRULE ON THE END OF THE FIBER OPTIC CABLE.
+THE FIBER IS PROTECTED BY A BUFFER COATING ON THE OUTER LAYER, AND BETWEEN THE COATING AND THE FIBER IS A LOW REFLECTIVE INDEX CLADDING.
+THE FIBER IS CONSIDERED THE CORE.
+
+Q8. What is the purpose of the buffer coating in a fiber optic cable?
+Ans: THIS PROTECTS EVERYTHING THAT’S ON THE INSIDE OF THE FIBER OPTIC CABLE.
+
+Q9. What is the purpose of the cladding surrounding the core in fiber optics?
+Ans: THE CLADDING HAS A LOW REFLECTIVE INDEX WHICH MEANS ANY LIGHT THAT HAPPENS TO HIT THE CLADDING IS ABSORBED BY THE CLADDING INSTEAD OF BEING REFLECTED BACK IN THROUGH THE CORE.
+
+Q10. What is usually found at the end of a fiber optic connection?
+Ans: A FERRULE (LARGE CERAMIC PROTECTOR)
+INSIDE THE FERRULE IS THE CORE.
+
+Q11. What are two broad categories of fiber optics?
+Ans. MULTI-MODE AND SINGLE-MODE FIBER.
+
+Q12. What type of fiber optic cable is commonly used for large range communication? Ans: SINGLE-MODE FIBER
+UP TO 100KM
+COMMONLY USES LASERS (EXPENSIVE LIGHT SOURCE)
+
+Q13. Each networking standard has its own set of maximum distances that you can use, depending on what type of____________you’re using.
+Ans. CABLING
+
+Q14. What type of light source is commonly used with multi-mode fiber?
+Ans: LEDS (RELATIVELY INEXPENSIVE LIGHT SOURCE ASSOCIATED WITH MULTI-MODE FIBER)
+
+Q15. What type of fiber optic cable is commonly used for short range communication?
+Ans. MULTI-MODE FIBER
+UP TO 2KM
+
