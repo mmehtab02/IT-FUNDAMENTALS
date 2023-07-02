@@ -1,0 +1,200 @@
+DV500_45_SAS On Computer Power
+Self-Assessment Sheet
+
+
+Q1. Why should you disconnect from the power source when working on a computer? Ans: ALWAYS DISCONNECT FROM THE POWER SOURCE WHEN WORKING ON THAT DEVICE.
+
+IT IS AN ELECTRICAL HAZARD AND THERE CAN BE PLENTY OF ISSUES ARISE SUCH AS FIRE, SMOKE, SHOCKS, AND SHORTING YOUR DEVICE COMPONENTS.
+
+IT IS A SAFETY PRECAUTION.
+
+Q2. What is a challenge you might have when working on electronic components?
+Ans: EVEN CAPACITORS ON THE DEVICES MAY STORE CHARGES WHEN THE POWER IS DISCONNECTED SO IT MIGHT SHOCK YOU.
+
+Q3. What should you never do when working with an electrical system?
+Ans: NEVER CONNECT ANY PART OF YOUR BODY TO ANY PART OF IT. THERE’S A POSSIBILITY YOU CAN GET SHOCKED.
+
+Q4. What type of power does a computer motherboard and components commonly use?
+Ans: DIRECT CURRENT, OR DC POWER
+
+Q5. Power sources are receiving________________________ from the power outlet.
+Ans.  ALTERNATING CURRENT, OR AC POWER
+
+Q6. How would you get the conversion  betweenAC & DC?
+Ans. THROUGH THE POWER SUPPLY OF YOUR COMPUTER, WHICH CONVERTS AC INPUT TO PROVIDE DC OUTPUT.
+
+Q7. What are the common voltages provided by power supplies?
+Ans: 3.3V, 5V, AND 12V OF DC POWER.
+
+Q8. One measurement that we use with power is an ______________.
+Ans. AMPERE / AMP / A
+
+Q9. What does an ampere measure?
+Ans: THIS DESCRIBES THE RATE OF ELECTRONS THAT ARE PASSING BY A PARTICULAR POINT IN ONE SECOND.
+
+IT CAN BE THOUGHT OF AS ELECTRICITY FLOWING THROUGH A WIRE. IF YOU HAVE A LARGER DIAMETER HOSE, YOU’RE ABLE TO SUPPORT LARGER NUMBER OF AMPS.
+
+Q10. What is voltage?
+Ans: ANOTHER IMPORTANT MEASUREMENT (VOLT / V)
+
+IT REFERS TO HOW MUCH FORCE IS PUSHING THE ELECTRICITY THROUGH THE WIRE.
+
+SIMILAR TO OPEN / CLOSE OF A FAUCET TO CONTROL CHANGE OF FLOW OF WATER.
+
+Q11. What is a watt?
+Ans: POWER SUPPLIES ON COMPUTERS OFTEN ARE RATED BY WATTS.
+
+IT IS A MEASUREMENT OF REAL POWER USE FOR THAT POWER SYSTEM.
+
+(W)
+
+Q12. How would you calculate the number of watt used?
+Ans. TAKE THE VOLTS, MULTIPLE IT BY AMPS, TO GET TOTAL NUMBER OF WATTS.
+
+Q13. _______________ is the type of power that we are receiving from the outlet that’s in the wall.
+Ans. AC POWER
+
+Q14. Why do we commonly distribute power using alternating current?
+Ans. AC POWER CAN BE SENT OVER VERY LONG DISTANCES.
+
+Q15. What is the power of alternating current in the US and Canada?
+Ans: 110 TO 120 VOLTS OF AC POWER.
+(60 TIMES A SECOND ALTERNATING / 60 HERTZ)
+
+Q16. What is the frequency of alternating current in Europe?
+Ans: 220 TO 240 VOLTS OF AC POWER.
+
+Q17.We often refer to the number of times this current alternates as a total number of _________________.
+Ans. CYCLES / HERTZ
+
+Q18. If alternating current is going into our power supply, then______________, is what is coming out of our power supply and onto the _________________.
+Ans. DIRECT CURRENT / DC
+MOTHERBOARD
+Q19. What is the voltage and frequency for a power supply in the US?
+Ans: 120 VOLTS AC / 60-HERTZ FREQUENCY
+
+Q20. What is the voltage and frequency for a power supply in Europe?
+Ans: 230 VOLTS AC / 50-HERTZ FREQUENCY
+
+Q21. What should be done if a computer is moved from one country to another?
+Ans: MAKE SURE THAT YOUR POWER SUPPLY CAN SUPPORT THE CHANGES IN VOLTAGE.
+
+Q22. How can you determine the voltage of a wall outlet?
+Ans: YOU CAN USE A MULTIMETER TO MEASURE IT.
+
+Q23. What should you be careful of when using a manually switched power supply?
+Ans: PLUGGING IN THE WRONG VOLT POWER SUPPLY (120V) INTO THE WRONG VOLT POWER SOURCE (230).
+
+YOU WILL SEE SPARKS AND SMOKE COME FROM THAT POWER SUPPLY.
+
+Q24. What is the purpose of the switch on the back of the power supply?
+Ans: TO SWITCH BETWEEN DIFFERENT AC VOLTAGES.
+
+Q25. What is the power supply used for?
+Ans: IT CONVERTS AC CURRENT INTO DC CURRENT FOR YOUR DEVICE.
+
+Q26. What is direct voltage?
+Ans: TYPE OF ELECTRICAL VOLTAGE THAT MAINTAINS A CONSTANT DIRECTION OVER TIME. IT COULD BE POSITIVE OR NEGATIVE WITHOUT CHANGING ITS POLARITY.
+
+DC VOLTAGE CURRENT OUTPUT FOR YOUR DEVICES.
+
+Q27. What is a characteristic of direct voltage?
+Ans: IT IS EITHER A POSITIVE OR NEGATIVE VALUE.
+
+Q28. What components typically require higher voltages?
+Ans: HIGH VOLTAGES ARE COMMONLY ASSOCIATED WITH COMPONENTS INSIDE YOUR SYSTEM THAT NEED ADDITIONAL POWER.
+
+THINGS LIKE PCIe ADAPTERS, HARD DRIVE MOTORS, COOLING FANS MIGHT REQUIRE +12V TO BE ABLE TO OPERATE.
+
+Q29. What voltage is usually used for modern motherboards?
+Ans: +3.3V VOLTS
+
+Q30. What components take advantage of the 3.3 volts on modern motherboards?
+Ans: M.2 SLOTS, SOME RAM SLOTS, AND OTHER COMPONENTS.
+
+Q31. What is the Standby voltage used for?
+Ans: SOME POWER SUPPLIES ALSO HAVE A SEPERATE LINE FOR A +5 VOLTS SB.
+
+THIS STANDBY IS USED WHEN YOUR SYSTEM IS IN A HIBERNATE MODE. IT SCOUTS FOR WHEN IT ENTERS SLEEP MODE, AND WHEN IT EXITS IT.
+
+Q32. What type of components use negative 12 volts?
+Ans. OLDER COMPONENTS LIKE AN INTEGRATED LAN CONNECTION, OR SOME OLDER SERIAL PORTS, OR SOME PCI CARDS.
+
+Q33. Are modern motherboards designed to use minus 5 volts?
+Ans. NO, THAT -5V IS FOR LEGACY SYSTEMS.
+(ISA ADAPTERS)
+
+Q34. Does the power supply support the 120 volts used in the US?
+Ans. YES, IT RANGES FROM 100V TO 240V COVERING ALL LOCATIONS.
+
+Q35. If you add up all of the DC voltage that’s supported by this power supply, it can support a total of __________.
+Ans. 850 WATTS
+
+Q36. We get power from the power supply to the motherboard through this very large ______________.
+Ans. 24 PIN CONNECTOR
+
+Q37. What type of connector is used in modern systems?
+Ans: FULL 24 PINS OF MOTHERBOARD POWER
+
+(OLDER / ORIGINAL ATX STANDARD WAS 20 PINS, 24 PIN WAS ADDED FOR PCI EXPRESS POWER)
+
+(24-PIN CONNECTOR CAN CONNECT TO 20-PIN MOTHERBOARD, SOME CABLES ARE 20-PIN + 4-PIN)
+
+Q38. How do you connect the power connector to the motherboard?
+Ans: UNPLUG THE SYSTEM, CONNECT THE POWER CONNECTOR FROM THE POWER SUPPLY DIRECTLY INTO THE MOTHERBOARD.
+
+SOME CONNECTORS WILL INCLUDE A CLIP SO WHEN YOU PUSH IT DOWN IT PUSHES IN PLACE AND LOCKS ITSELF DOWN.
+
+Q39. What type of computers likely have a single power supply?
+Ans: OUR COMPUTERS AT HOME / MOST GENERAL SIMPLE USE DEVICES.
+
+Q40. What type of devices may have multiple power supplies?
+Ans: DEVICES IN A DATA CENTER OR SERVERS MAY HAVE MULTIPLE POWER SUPPLIES.
+
+Q41. How is the load shared between multiple power supplies?
+Ans: IF YOU HAVE MULTIPLE PLUGGED IN AT THE SAME TIME, THEY WILL EVENLY DISTRIBUTE THE LOAD ACROSS THEM BOTH.
+
+EACH IS CAPABLE OF HANDLING 100% OF THE LOAD EVEN IF NOT ALL ARE CONNECTED / IN USE.
+
+Q42. How do you remove a power supply from a server?
+Ans: HOT-SWAPPABLE - THERE’S A CLIP TO PUSH DOWN AND YOU CAN SLIDE OUT THE ENTIRE POWER SUPPLY AND SIMPLY REPLACE IT WITH A NEW ONE WITHOUT POWERING DOWN THE SERVER.
+
+Q43. What type of connectors are typically found on the side of a power supply that goes to the motherboard?
+Ans: THERE MAY BE A FIXED SET OF CONNECTORS THAT INCLUDE POWER FOR OTHER COMPONENTS ON YOUR SYSTEM BESIDES JUST THE MOTHERBOARD.
+
+MAY HAVE TOO MANY CONNECTORS, MAY NOT HAVE ENOUGH.
+
+Q44. What is a modular power supply?
+Ans: INSTEAD OF HAVING A CABLE PERMANENTLY ATTACHED TO THE POWER SUPPLY, YOU CAN DEVICE EXACTLY WHAT YOU WILL PLUG IN AND USE WITH AS FEW OR AS MANY CONNECTIONS AS YOU MIGHT NEED.
+
+THIS REDUCES THE NUMBER OF WIRES IN YOUR SYSTEM AND YOU WILL HAVE BETTER AIRFLOW AS WELL.
+
+THESE ARE A LITTLE MORE EXPENSIVE.
+
+THERE ARE HYBRID VERSIONS OF FIXED / MODULAR POWER SUPPLIES AS WELL.
+
+Q45. How do you balance the maximum capacity of a power supply?
+Ans: YOU DECIDE HOW MUCH POWER YOU’RE GOING TO NEED FOR THAT SYSTEM. THE HIGHER IT IS (WATTS), THE MORE EXPENSIVE IT WILL BE.
+
+Q46. Does having additional capacity in your power supply change the overall speed or efficiency of your computer?
+Ans: NO
+
+Q47. Can you purchase a power supply from any manufacturer?
+Ans: YES, IT SHOULD FIT FINE IN YOUR COMPUTER CASE SINCE THE PHYSICAL SIZE OF THESE POWER SUPPLIES ARE STANDARDIZED.
+
+THE ONLY TIME TO WORRY IS WHEN YOU ARE USING A VERY OLD SYSTEM OR A PROPRIETARY ONE.
+
+Q48. What is the physical size of power supplies?
+Ans: THEY ARE STANDARDIZED SIZES THAT WOULD FIT PROPERLY IN A CASE.
+
+Q49. What is needed to determine the proper size for a power supply for a system?
+Ans: YOU NEED TO PERFORM SOME CALCULATIONS BY DETERMINING THE WATTAGE YOU WOULD NEED FOR ALL COMPONENTS INSIDE YOUR SYSTEM : CPU, STORAGE DEVICES, VIDEO CARDS, ETC.
+
+Q50. How do I calculate the wattage needed for my system?
+Ans: YOU CAN USE WEBSITES THAT PROVIDE CALCULATORS TO HELP WITH THIS, OR YOU CAN CALCULATE THE WATTAGE MANUALLY.
+
+CHECKING DOCUMENTATION FOR YOUR DEVICES / COMPONENTS WOULD BE USEFUL.
+
+ONCE YOU CALCULATED AN ACCURATE NUMBER OF HOW MANY WATTS YOUR SYSTEM MIGHT NEED, PURCHASE A POWER SUPPLY WITH THAT. IT WOULD BE WISE TO DOUBLE THE NUMBER AS WELL SINCE IT WILL GIVE ROOM FOR FUTURE UPGRADES AND LET THE POWER SUPPLY RUN EFFICIENTLY.
+
+
