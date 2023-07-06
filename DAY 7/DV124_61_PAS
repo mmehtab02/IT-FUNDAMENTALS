@@ -1,0 +1,145 @@
+DV500_61_SAS On Troubleshooting Storage Devices
+Self-Assessment Sheet
+
+Q1. What does it mean when you see a message on the screen that says, "Cannot read from the source disk"?
+Ans:  THIS INDICATES A PROBLEM READING OR WRITING INFORMATION TO THE STORAGE DRIVE. IT COULD INDICATE THE STORAGE DRIVE HAS FAILED. IT COULD BE THE STORAGE DRIVE IS STILL WORKING BUT YOU ARE GETTING A SLOW RESPONSE.
+
+Q2. What is the "click of death"?
+Ans: IF YOU ARE USING A HARD DRIVE AND IT IS MAKING A LOUD CLICKING NOISE OVER AND OVER AGAIN. THIS INDICATES THE DRIVE IS FAILING OR MAY HAVE ALREADY FAILED.
+
+Q3. What should be done first when troubleshooting storage problems?
+Ans: MAKE A BACKUP OF ALL CRITICAL DATA IF POSSIBLE.
+
+Q4. How can I check if my system is overheating?
+Ans: OVERHEATING AFFECTS ALL COMPONENTS IN THE SYSTEM. ERRORS ON THE DRIVE MAY BE RELATED TO THIS. IT CAN BE A NEW HARDWARE COMPONENT OR OVERLOADING OF THE POWER SUPPLY. PERHAPS NOT ENOUGH VOLTAGE FOR THE DRIVE.
+
+Q5. What can a user do if their power supply does not have enough power for a storage drive?
+Ans: REMOVE THE HARDWARE SO YOU HAVE ENOUGH POWER FOR THE DRIVE OR UPGRADE THE POWER SUPPLY.
+
+Q6. What if you’re not sure if the problem is with the drive or something outside of the storage drive?
+Ans. RUN SOME HARDWARE DIAGNOSTICS OF THE DRIVE ITSELF.
+
+Q7. What can the drive manufacturer provide to check the working components of a drive?
+Ans: A SET OF DIAGNOSTICS THAT WILL BE ABLE TO TELL YOU WHETHER THE DRIVE IS OPERATING PROPERLY OR IF THERE ARE ANY ERRORS.
+
+Q8. What messages may occur when you boot your system?
+Ans: DRIVE NOT RECOGNIZED
+BOOT DEVICE NOT FOUND
+
+Q9. What lights may occur when you boot your system?
+Ans: LIGHTS THAT SHOW ACCESS TO THE DRIVE
+PERHAPS NO LIGHTS SHOWING ACCESS TO THE DRIVE.
+
+Q10. What does it mean when an operating system is not found during startup?
+Ans: THE DRIVE IS THERE BUT FOR SOME REASON WE ARE NOT ABLE TO FIND AN OPERATING SYSTEM INSTALLED ON THE DRIVE.
+
+Q11. What is the first step to troubleshoot this issue when an operating system is not found during startup?
+Ans. CHECK THE PHYSICAL CONFIGURATION SUCH AS CABLES.
+
+
+Q12. The ____________maintains the list of priorities for all of the boot devices during startup.
+Ans. BIOS
+
+Q13. What is the sequence for booting up in a BIOS?
+Ans: THE BOOT PRIORITY, CHECKING THE TOP OF THE LIST (IN THIS CASE STORAGE DRIVE) AND FINDING AN OS, IF NOT FOUND MOVING ONTO THE NEXT BOOT DEVICES IN THE LIST.
+
+Q14. What should I check if my system is not booting?
+Ans: USB INTERFACES, BOOT PRIORITY LIST, CHECK BIOS CONFIG IF STORAGE DEVICES ARE ENABLED IN BOOT LIST.
+
+Q15. What should you do if you are booting from a new storage drive?
+Ans: CHECK THE DATA AND POWER CABLES (PHYSICAL INSTALLATION).
+
+OTHER OPERATIONAL SATA INTERFACES ON YOUR MOTHERBOARD.
+
+TRY THE DRIVE IN ANOTHER COMPUTER AS WELL.
+
+Q16. What is a potential problem with hard drives?
+Ans: THEY ARE SPINNING MECHANICAL SYSTEMS. IT’S NOT A QUESTION OF IF A HARD DRIVE WILL FAIL BUT WHEN IT WILL FAIL.
+
+YOU MAY HAVE TO SPEND A LOT OF MONEY TO RECOVER DATA FROM SPECIALIZED COMPANIES, AND AT TIMES THE DRIVE WILL BE UNRECOVERABLE.
+
+Q17. What can happen if a solid state drive fails?
+Ans: YOU WOULD NOT BE ABLE TO READ OR WRITE ANY DATA TO THAT DRIVE.
+
+BUT SOME SSDS CAN FAIL AND STILL ALLOW YOU TO READ DATA, BUT NOT WRITE.
+
+Q18. What does RAID stand for?
+Ans. REDUNDANT ARRAY OF INDEPENDENT DISKS.
+
+Q19. What is RAID?
+Ans: A COMMON WAY TO COMBINE DRIVES TOGETHER TO MAINTAIN UPTIME AND AVAILABILITY OF YOUR DATA.
+
+Q20. How do you investigate a RAID controller failure?
+Ans: THE BOOT UP PROCESS MAY GIVE INFORMATION ABOUT ANY INTEGRATED RAIDS, PROBLEMS WITH IT, AND MORE, AS WELL AS AN OPTION FOR STARTING A CONFIGURATION UTILITY (IN THIS CASE DELL) TO INVESTIGATE AND GET MORE INFO ABOUT THE RAID CONTROLLER FAILURE.
+
+Q21. What can a RAID manager tell you?
+Ans: IT CAN LIST OUT ALL THE DRIVES IN THE SYSTEM, TELL THE TYPES OF MODELS OF THE DRIVES, AND GIVE A STATUS OF THE PERFORMANCE OF EACH OF THE INDIVIDUAL DRIVES IN THE RAID ARRAY.
+
+IF ANY DRIVE FAILS OR HAS AN ERROR, IT WILL BE NOTED IN THE STATUS AND YOU WILL KNOW EXACTLY WHICH DRIVES.
+
+Q22. How many drives is required in RAID 0?
+Ans. TWO OR MORE.
+
+Q23. What happens if a single drive failure occurs in a RAID 0 array?
+Ans: IT WILL BREAK THE ARRAY AND YOU WILL HAVE DATA LOSS.
+
+Q24. How many drives do you need for RAID 1?
+Ans:TWO OR MORE.
+
+Q25. What is the minimum number of drives required for RAID 5?
+Ans: THREE OR MORE.
+
+Q26. RAID 10, which you may see written as______________, requires _________________ drives.
+Ans. RAID 1 + 0
+4 OR MORE
+
+Q27. What is the full form of SMART?
+Ans: SELF-MONITORING, ANALYSIS, REPORTING TECHNOLOGY.
+
+Q28. What information is provided in SMART data?
+Ans: AMAZING AMOUNT OF DIAGNOSTIC INFORMATION INSIDE EACH STORAGE DRIVE USING THIS STANDARD.
+
+THIS INFORMATION CAN BE ACCESSED FROM THIRD-PARTY UTILITIES OR UTILITIES FROM THE DRIVE MANUFACTURER AS WELL :
+
+SPIN-UP TIME, SEEK ERROR RATES, POWER ON HOURS, ETC.
+
+Q29. How often will Mini RAID arrays perform their own checks?
+Ans: EITHER ONCE A DAY, WEEK, OR MONTH.
+
+Q30. What should be done when receiving a message that a drive is failing?
+Ans: BACK UP THE DATA AND REPLACE THE DRIVE AS SOON AS POSSIBLE.
+
+Q31.What are the different parts of your computer system that can be used to retrieve or store the data?
+Ans: MANY DIFFERENT PARTS - MEMORY ACCESS, COMMUNICATION ACROSS THE BUS, THE DRIVE ITSELF, DIFFERENT STORAGE MEDIA.
+
+Q32. What are some ways to measure the overall performance of our storage devices?
+Ans. IOPS - A VERY BROAD PERSPECTIVE OF HOW WELL WE ARE ABLE TO READ AND WRITE DATA TO THE DRIVE, BUT IT AT LEAST GIVES A STANDARD TO USE ACROSS MULTIPLE DRIVES AND SYSTEMS.
+
+MOST DRIVE DIAGNOSTICS GIVE STATISTICS IN IOPS.
+
+Q33. IOPS stands for?
+Ans. INPUT/OUTPUT OPERATIONS PER SECOND
+
+Q34. How much IOPS can a hard drive achieve?
+Ans: 200 IOPS
+
+Q35. What is the IOPS of a solid state drive?
+Ans: ONE MILLION IOPS.
+
+Q36. How can we troubleshoot when certain drives are missing from the File Manager? Ans: CHECK THE BIOS
+
+IF IT ISN’T THERE, IT COULD BE CABLE OR RESEATING ISSUE (PHYSICAL)
+
+IT COULD BE THE DRIVE ITSELF HAS FAILED.
+
+Q37. If this is an external drive that’s connected via USB, then we want to be sure we have_____________ for the drive and that we’re connecting to the appropriate __________interface.
+Ans. POWER
+USB
+
+Q38. How do we reconnect a missing network share?
+Ans:
+IF THE MISSING DRIVE IS A NETWORK SHARE, WE MAY HAVE MISSED THE DRIVE BEING MOUNTED DURING THE STARTUP PROCESS.
+
+WE HAVE THE OPTION TO RECONNECT THAT DRIVE ONCE WE MAKE THAT CONNECTION.
+
+WE MAY WANT TO RUN THE LOGIN SCRIPT AGAIN THAT WILL GO THROUGH THE PROCESS OF MAPPING THE APPROPRIATE DRIVES.
